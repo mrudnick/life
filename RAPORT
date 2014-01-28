@@ -1,0 +1,9 @@
+Knop Piotr, Maj Mateusz;
+
+Dla każdego wiersza planszy uruchamiamy nowy wątek,
+który wczytuje ten wiersz oraz wiersze poprzedni i następny,
+(Dla pierszego wiersza tylko następny, dla ostatniego poprzedni)
+a nastepnie wykonuje na nich operacje.
+Po zakończeniu obliczeń zapisujemy nowo powstały wiersz,
+(dla pierwszego wiersza - pierwszy z 2, dla ostatniego- drugi, dla pozostałych- środkowy).
+Watki pracujące wysyłają przekształcone wiersze do wątku zbierającego dane który zapisuje je do pojedyńczego pliku.
